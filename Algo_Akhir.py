@@ -266,6 +266,7 @@ def beli_hasil_tani (id_akun):
 def penjualan_hasil_tani():
     clear_terminal()
     print('\n' + '=' * 20 + ' MENU PENJUALAN HASIL TANI ' + '=' * 20 + '\n')
+
     # menu status pengiriman nnti ada tolak, pending, dikirim, diterima
     # Tambahkan logika untuk penjualan hasil tani
 
