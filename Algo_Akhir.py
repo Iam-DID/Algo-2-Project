@@ -1,4 +1,3 @@
-
 import psycopg2
 import webbrowser
 import os
@@ -12,9 +11,9 @@ import sort
 def connect_db():
     conn = psycopg2.connect(
     host="localhost",
-    database="Algo2",
+    database="DBAlgo2",
     user="postgres",
-    password="",
+    password="@Raditya14",
     port=5432
     )     
     return conn
@@ -31,6 +30,7 @@ def kembali ():
         kembali()
         
 def main():
+    clear_terminal()
     while True:
         print("\n=== MENU ===")
         print("1. Register")
