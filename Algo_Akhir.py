@@ -263,6 +263,7 @@ def beli_hasil_tani (id_akun):
         # max_budget = int(input("Masukkan budget maksimal: "))
     except Exception as e:
         input(f"❌ Terjadi kesalahan: {e}")
+
         clear_terminal()
         
     finally:
@@ -275,6 +276,7 @@ def riwayat_pembelian(id_akun):
     # Tambahkan logika untuk menampilkan riwayat pembelian
  
 def penjualan_hasil_tani():
+
     while True:
         clear_terminal()
         print('\n' + '=' * 20 + ' MENU PENJUALAN HASIL TANI ' + '=' * 20 + '\n')
@@ -326,6 +328,11 @@ def penjualan_hasil_tani():
         cur.close()
         conn.close()
         input("Tekan Enter untuk lanjut...")
+    clear_terminal()
+    print('\n' + '=' * 20 + ' MENU PENJUALAN HASIL TANI ' + '=' * 20 + '\n')
+
+    # menu status pengiriman nnti ada tolak, pending, dikirim, diterima
+    # Tambahkan logika untuk penjualan hasil tani
 
 def rute_pengiriman():
     clear_terminal()
