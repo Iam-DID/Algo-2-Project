@@ -11,7 +11,7 @@ def connect_db():
     host="localhost",
     database="Algo2",
     user="postgres",
-    password="syadid1306",
+    password="",
     port=5432
     )     
     return conn
